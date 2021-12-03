@@ -1,0 +1,3 @@
+Porosity:
+
+When we refer to porosity, it is the empty space that is not occupied by the grains that is the solid material of the rock.  The pores allow the storage of fluids: oil, water and/or gas. It is for this reason that porosity represents the volume of these fluids present in the reservoir and is an important data when planning hydrocarbon production or recovery. Generally, reservoirs with very low porosity are not attractive and are not considered for exploitation, taking into account the economic point of view.

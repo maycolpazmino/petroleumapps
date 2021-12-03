@@ -1,0 +1,8 @@
+Wet gas:
+ 
+The entire phase diagram of this type of hydrocarbon, composed of very small molecules, is below the reservoir temperature; the pressure line does not contact the envelope and therefore there is no formation of liquid in the reservoir, but on the surface. The gas / oil production ratio is always very high and remains constant throughout the productive life of the reservoir. In practical terms, if the production gas / oil ratio is greater than 50,000 ft3S / STB, it can be treated as a wet gas field. The gravity of tank crude is in the same range as that of retrograde gases. However, the API gravity remains constant throughout the productive life of the reservoir. Liquids are generally very light in color with milky tones. (Escobar Macualo, 2012)
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .
+
+

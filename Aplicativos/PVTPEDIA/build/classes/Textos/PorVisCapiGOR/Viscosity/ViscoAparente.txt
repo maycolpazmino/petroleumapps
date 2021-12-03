@@ -1,0 +1,1 @@
+Viscosity that a substance can have at a given time, which is measured by means of an instrument that determines the shear rate. It is a function of the plastic viscosity with respect to the yield point.

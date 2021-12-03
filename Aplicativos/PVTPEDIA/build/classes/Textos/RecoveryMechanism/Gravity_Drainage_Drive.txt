@@ -1,0 +1,3 @@
+Gravity Drainage Drive:
+
+Occurs in petroleum reservoirs as a result of differences in densities of the reservoir fluids. If the reservoir fluids are in equilibrium then the gas–oil and oil–water contacts should be essentially horizontal. If the gas is conserved, and reservoir pressure is maintained, the reservoir would be operating under combined gas cap drive and gravity drainage mechanisms.

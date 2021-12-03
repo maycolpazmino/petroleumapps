@@ -1,0 +1,1 @@
+The proper way to include capillary pressure in a flow model study is to correct laboratory measured values to reservoir conditions. This is done by applying the correction:

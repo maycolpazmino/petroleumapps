@@ -1,0 +1,1 @@
+British test method for determining viscosity. It is expressed as the number of seconds required for 50 cc of the sample to flow in a Redwood viscometer under specific test conditions.

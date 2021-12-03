@@ -1,0 +1,8 @@
+Retrograde or condensed gas:
+ 
+In its phase diagram it can be seen that its critical point is far below and to the left of the envelope, this is the result of retrograde gases with a low content of heavy hydrocarbons. Its critical temperature is less than the reservoir temperature, while the cricondentermic point is higher than the reservoir temperature. As the pressure drops, the gas condenses and forms liquid in the reservoir, which lags behind and cannot be extracted. The gas / oil ratio can be between 3300 to 150000 ft3S / STB and will increase with production and as the reservoir pressure falls below the dew pressure the API gravity will increase; its standard API gravity is between 40� and 60�. The tonality of these liquids is generally very light brown, orange, greenish or milky tones. (Escobar Macualo, 2012)
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .
+
+

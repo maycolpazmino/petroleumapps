@@ -1,0 +1,1 @@
+It is defined as the quotient between the mass of a body and the volume it occupies. The density of a body is related to its buoyancy, a substance will float on another if its density is lower. The denser the fluid, the greater its viscosity.

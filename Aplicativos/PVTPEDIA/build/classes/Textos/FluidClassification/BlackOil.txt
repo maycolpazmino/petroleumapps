@@ -1,0 +1,6 @@
+Black oil:
+ 
+It is a variety of chemical species where large, heavy and low volatile molecules accumulate; its critical point is located towards the slope of the curve. The lines (iso-volumetric or quality) are evenly spaced and have a wide temperature range. It is known as low shrinkage crude or ordinary crude. Its main characteristics are RGP less than 2000 pcs / STB, which rises below the bubble point, while its API gravity is less than 45 and slowly decreases until well advanced in the life of the reservoir where it increases slightly again and its shades can range from black, brown or greenish. (Escobar Macualo, 2012)
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .

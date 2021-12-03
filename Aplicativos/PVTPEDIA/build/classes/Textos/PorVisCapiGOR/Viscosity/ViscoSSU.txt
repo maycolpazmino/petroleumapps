@@ -1,0 +1,1 @@
+It represents the time in seconds for a flow of 60 cubic centimeters to exit a tubular vessel through an orifice, properly calibrated and arranged at the bottom of the vessel, which has been maintained at a constant temperature.

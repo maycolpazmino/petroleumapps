@@ -1,0 +1,5 @@
+Studies of the gas compressibility factors for natural gases of various compositions have shown that compressibility factors can be generalized with sufficient accuracies for most engineering purposes when they are expressed in terms of the following two dimensionless properties:
+-Pseudo-reduced pressure
+-Pseudo-reduced temperature
+
+Based on the concept of pseudo-reduced properties, Standing and Katz, presented a generalized gas compressibility factor chart. The chart represents compressibility factors of sweet natural gas as a function of ppr and Tpr. This chart is generally reliable for natural gas with minor amount of nonhydrocarbons. It is one of the most widely accepted correlations in the oil and gas industry.

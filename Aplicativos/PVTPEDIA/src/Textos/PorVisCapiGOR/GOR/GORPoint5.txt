@@ -1,0 +1,7 @@
+Point 5. This point indicates that all the producible free gas has been produced and the GOR is essentially equal to the gas solubility and continues to decline following the Rs curve.
+
+There are three types of GORs, all expressed in scf/STB, which must be clearly distinguished from each other. These are:
+
+• Instantaneous GOR;
+• Solution GOR, i.e., gas solubility Rs;
+• Cumulative GOR Rp.

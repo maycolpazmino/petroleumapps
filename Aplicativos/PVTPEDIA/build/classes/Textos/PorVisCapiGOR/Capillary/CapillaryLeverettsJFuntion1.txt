@@ -1,0 +1,1 @@
+Rock samples with different pore-size distribution, permeability, and porosity will yield different capillary pressure curves. Leverett’s J-function is a technique for correlating capillary pressure to water saturation and rock properties. Leverett’s J-function is

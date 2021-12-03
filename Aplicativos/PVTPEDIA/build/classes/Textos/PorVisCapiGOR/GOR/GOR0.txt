@@ -1,0 +1,1 @@
+The field producing GOR is a constant value (around 580 scf/STB) for some time until cumulative oil production has reached 0.5 MMSTB. GOR starts to increase and reaches 1000 scf/STB. The GOR data generally show fluctuations. In this example, considerable variation in GOR data occurred in 2005 and after, due to changes in wells completion and poor maintenance of gas meters.

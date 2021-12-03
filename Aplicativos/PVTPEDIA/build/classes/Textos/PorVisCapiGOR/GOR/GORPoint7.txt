@@ -1,0 +1,1 @@
+The cumulative GOR Rp, as defined previously in the MBE, should be clearly distinguished from the producing (instantaneous) GOR. The cumulative GOR is defined as:

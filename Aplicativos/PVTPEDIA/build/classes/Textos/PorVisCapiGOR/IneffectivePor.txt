@@ -1,0 +1,1 @@
+Also known as non-interconnected porosity, this is the percentage of empty space (pores) that are not connected to each other, i.e. isolated or closed pores, therefore the fluid cannot exit or move through this area.

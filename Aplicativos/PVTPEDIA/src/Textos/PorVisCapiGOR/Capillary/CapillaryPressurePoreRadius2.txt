@@ -1,0 +1,1 @@
+Shows that an increase in pore radius will cause a reduction in capillary pressure while a decrease in IFT will cause a decrease in capillary pressure.

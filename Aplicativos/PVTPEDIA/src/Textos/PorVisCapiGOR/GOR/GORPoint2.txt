@@ -1,0 +1,1 @@
+Point 2. As the reservoir pressure declines below pb, the gas begins to evolve from solution and its saturation increases. However, this free gas cannot flow until the gas saturation Sg reaches the critical gas saturation Sgc at point 3. From point 2 to point 3, the instantaneous GOR is described by a decreasing gas solubility, as:

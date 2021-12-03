@@ -1,0 +1,1 @@
+Viscosity in centipoise divided by density at the same temperature and is designated in Stokes or centiStokes units.

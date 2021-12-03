@@ -1,0 +1,2 @@
+The produced GOR at any particular time is the ratio of the standard cubic feet of total gas being produced at any time to the stock-tank barrels of oil being produced at the same instant—hence, the name instantaneous GOR.
+GOR mathematically by the following expression:
