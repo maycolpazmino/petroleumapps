@@ -1,0 +1,3 @@
+Saturation is defined as that fraction, or percent, of the pore volume occupied by a particular fluid (oil, gas, or water)
+The fluids in most reservoirs are believed to have reached a state of equilibrium and, therefore, will have become separated according to their density, i.e., oil overlain by gas and underlain by water. In addition to the bottom (or edge) water, there will be connate water distributed throughout the oil and gas zones.
+Connate (interstitial) water saturation Swc is important primarily because it reduces the amount of space available between oil and gas. It is generally not uniformly distributed throughout the reservoir but varies with permeability, lithology, and height above the free water table.

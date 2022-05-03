@@ -1,0 +1,2 @@
+Permeability (also known as Absolute Permeability) is a property of the porous medium that measures the capacity and ability of the formation to transmit fluids. The rock permeability, k, is a very important rock property because it controls the directional movement and the flowrate of the reservoir fluids in the formation.
+This rock characterization was first defined mathematically by Henry Darcy in 1856. In fact, the equation that defines permeability in terms of measurable quantities is the Darcy’s Law.

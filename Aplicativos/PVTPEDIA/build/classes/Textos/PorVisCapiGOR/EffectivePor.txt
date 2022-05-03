@@ -1,0 +1,1 @@
+Also known as interconnected porosity, this is the percentage of empty space (pores) connected to each other, i.e. that can communicate with each other, with respect to the total volume of the rock. This type of porosity facilitates the circulation of fluids through the rocks.

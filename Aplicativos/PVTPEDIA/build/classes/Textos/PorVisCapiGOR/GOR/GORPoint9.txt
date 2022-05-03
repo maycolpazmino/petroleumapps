@@ -1,0 +1,2 @@
+indicates that the cumulative gas production at any time is essentially the area under the curve of the GOR vs. Np relationship, as shown in figure.
+The incremental cumulative gas produced, ΔGp, between Np1 and Np2 is then given by:

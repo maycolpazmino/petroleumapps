@@ -1,0 +1,3 @@
+Numerous equations-of-state have been developed in the attempt to correlate the pressure-volume-temperature variables for real gases with experimental data. In order to express a more exact relationship between the variables p, V, and T, a correction factor called the gas compressibility factor, gas deviation
+factor, or simply the z-factor, must be used to account for the departure of gases from ideality.
+Where the gas compressibility factor z is a dimensionless quantity and is defined as the ratio of the actual volume of n-moles of gas at T and p to the ideal volume of the same number of moles at the same T and p.

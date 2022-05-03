@@ -1,0 +1,1 @@
+Equilibrium between fluid phases in a capillary tube is satisfied by the relationship force up = force down. These forces are expressed in terms of the radius r of the capillary tube, the contact angle θ, and the IFT σ. The forces are given by

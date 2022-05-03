@@ -1,0 +1,1 @@
+A measure of viscosity that expresses the flow time of a given volume through an Engler viscometer in relation to the time required for the flow of the same volume of water, in which case the ratio is expressed in Engler grade.

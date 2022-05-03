@@ -1,0 +1,10 @@
+Asfaltenic:
+ 
+In these reservoirs, the initial reservoir conditions are well above and to the left of the critical point.
+above and to the left of the critical point. The temperature range is quite wide.
+wide. They do not vaporize and do not have a critical point (Escobar Macualo, 2012).
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .
+
+

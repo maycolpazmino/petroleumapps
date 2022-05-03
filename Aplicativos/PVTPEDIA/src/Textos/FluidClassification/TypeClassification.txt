@@ -1,0 +1,8 @@
+Classification Reservoir fluid type:
+ 
+A reservoir is understood to be the geological unit with limited volume, which has a certain percentage of porosity and permeability, where the hydrocarbons are contained in a gaseous and liquid state. For the idea of reservoir to be formed, there must be five basic ingredients: (1) source, (2) Migratory path, (3) Trap, (4) Storage / porosity, (5) Transmissibility / Permeability (Escobar Macualo, 2012)
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .
+
+

@@ -1,0 +1,1 @@
+where σ is IFT, and θ is wettability angle (Amyx et al., 1960; Dandekar, 2013, Section 8.8). The subscripts lab and res refer to laboratory conditions and reservoir conditions, respectively. If laboratory measurements of IFT are not available, IFT can be estimated from the Macleod–Sugden correlation for pure compounds or the Weinaug–Katz correlation for mixtures.

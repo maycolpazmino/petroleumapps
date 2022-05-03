@@ -1,0 +1,3 @@
+The concept of absolute permeability must be modified to describe the fluid flowing behavior when more than one fluid is present in the reservoir. 
+As the saturation of a particular phase decreases, the permeability to that phase also decreases. The measured permeability is referred to as the effective permeability and is a relative measure of the conductance of the porous medium for one fluid when the medium is saturated with more than one fluid.
+When two or more fluids flow at the same time, the relative permeability of each phase at a specific saturation is the ratio of the effective permeability of the phase to the absolute permeability.

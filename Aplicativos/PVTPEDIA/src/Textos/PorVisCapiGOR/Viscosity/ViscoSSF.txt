@@ -1,0 +1,1 @@
+Time in seconds it takes for 60 cc of sample to flow through an orifice larger than the Universal, calibrated under specified conditions, using a Saybolt viscometer.

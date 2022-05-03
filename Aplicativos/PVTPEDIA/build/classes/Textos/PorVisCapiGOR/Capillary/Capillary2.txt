@@ -1,0 +1,3 @@
+Capillary pressure is the pressure difference across the curved interface between two immiscible fluids in contact in a small capillary tube. The pressure difference is expressed in terms of wetting and nonwetting phase pressures, thus:
+
+Capillary pressure is related to IFT, contact angle, and pore radius by:

@@ -1,0 +1,1 @@
+Point 3. At this point, the free gas begins to flow with the oil and the values of GOR progressively increase with the declining reservoir pressure to point 4. During this pressure decline period, the GOR is described by:

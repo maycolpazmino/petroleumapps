@@ -1,0 +1,9 @@
+Depletion drive:
+
+This driving form may also be referred to by the following various terms:
+
+- Solution gas drive
+- Dissolved gas drive
+- Internal gas drive
+
+In this type of reservoir, the principal source of energy is a result of gas liberation from the crude oil and the subsequent expansion of the solution gas as the reservoir pressure is reduced. As pressure falls below the bubble point pressure, gas bubbles are liberated within the microscopic pore spaces. Thesebubbles expand and force the crude oil out of the pore space

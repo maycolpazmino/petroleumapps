@@ -1,0 +1,5 @@
+Expressing Pc in terms of force down leads to the expression.
+
+Solving for h yields the defining relationship between capillary pressure Pc and equivalent height h, namely,
+
+The equivalent height is the height above the free fluid level of the wetting phase, where the free fluid level is the elevation of the wetting phase at Pc = 0. For example, Ahmed (2010) defines free water level as the elevation where capillary pressure equals zero at 100% water saturation with the water–oil contact at the uppermost depth in the reservoir where water saturation is 100%.

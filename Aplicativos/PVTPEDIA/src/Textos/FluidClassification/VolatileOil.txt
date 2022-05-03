@@ -1,0 +1,9 @@
+Volatile oil:
+ 
+Its temperature range is lower than that of black oil, its critical temperature is close to the reservoir temperature; while its quality lines are not equally spaced as black oil and are shifted up towards the bubble point. About 50% of the crude oil can become gas in the reservoir when the pressure drops a few hundred psi above the bubble point, also known as high-shrinkage crude or near-critical point crude. The initial production gas / oil ratio is in the range between 2000 and 3300 ft3S / STB, which will increase with production while reservoir pressure is below bubble pressure.
+Tank oil gravity is around 40 � API or higher and will increase when reservoir pressure drops below bubble pressure. This type of crude oil in the tank is brown, orange and sometimes green. (Escobar Macualo, 2012)
+
+References
+Escobar Macualo, F. H. (2012 ). Fundamentos de Ingenier�a de Yacimientos. Neiva - Huila - Colombia : Universidad Surcolombiana .
+
+

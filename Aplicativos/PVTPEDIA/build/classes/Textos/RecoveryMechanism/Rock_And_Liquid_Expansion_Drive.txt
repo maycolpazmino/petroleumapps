@@ -1,0 +1,3 @@
+Rock and Liquid Expansion Drive:
+
+As the reservoir pressure declines, the rock and fluids expand due to their individual compressibilities. The reservoir rock compressibility is the result of two factors: expansion of the individual rock grains, formation compaction. This driving mechanism is considered the least efficient.

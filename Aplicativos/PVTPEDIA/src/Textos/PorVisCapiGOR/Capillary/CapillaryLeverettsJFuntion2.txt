@@ -1,0 +1,4 @@
+Given J(Sw), we can estimate capillary pressure at reservoir conditions as
+
+
+where the value of J(Sw) is obtained from the smooth curve constructed by the procedure in Table

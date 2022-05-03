@@ -1,0 +1,1 @@
+The instantaneous GOR equation is of fundamental importance in reservoir analysis. The importance of equation can be appropriately be discussed in conjunction with the images. Those illustrations show the history of the GOR of a hypothetical depletion drive reservoir that is typically characterized by the following points:

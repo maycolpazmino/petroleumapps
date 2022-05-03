@@ -1,0 +1,7 @@
+Combination Drive Mechanism:
+
+The driving mechanism most commonly encountered is one in which both water and free gas are available in some degree to displace the oil toward the producing wells. Two combinations of driving forces are usually present in combination drive reservoirs:
+
+(1) Depletion drive and a weak water drive, or (2) Depletion drive with a small gas cap and a weak water drive.
+These types of reservoirs usually experience a relatively rapid pressure decline.
+

@@ -1,0 +1,7 @@
+The unit of the Darcy is defined as the permeability, k, required to allow a flow rate, qw, of one cc of water per second through a medium with a cross-sectional area, A, of one cm2, with an applied pressure gradient, Δp/ΔL, of one atm/cm. As it turns out, the Darcy as a unit is too large for most field applications. In reservoir engineering we typically work with the millidarcy, md.
+Darcy’s Law has several important assumptions associated with it. These include:
+- A rigid porous medium (incompressible medium with no transport of rock grains, e.g. fines movement).
+- An incompressible, homogeneous, Newtonian fluid that fully saturates (single-phase) the porous medium.
+- Steady-state, isothermal, and laminar (low Reynolds number) flow conditions.
+- No interactions between the porous medium and the fluid flowing through it
+- A no-slip interface between the porous medium and the fluid flowing through it (zero velocity boundary condition at the rock-fluid interface).

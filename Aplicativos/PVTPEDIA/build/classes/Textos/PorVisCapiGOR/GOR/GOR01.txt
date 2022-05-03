@@ -1,0 +1,1 @@
+Consideration of the entire field GOR rather than individual wells GOR is important for selecting an appropriate value for use in PVT correlations. In addition, taking a 3 or 4-month moving average for the data reduces the scattering in GOR data and obtains a more representative average initial GOR. The correct PVT correlations input is the total GOR (and not the separator GOR).

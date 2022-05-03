@@ -1,0 +1,8 @@
+Gas Cap Drive:
+
+The natural energy available to produce the crude oil comes from the following two sources:
+
+- Expansion of the gas cap gas.
+- Expansion of the solution gas as it is liberated.
+
+The reservoir pressure falls slowly and continuously. Oil recovery by gas cap expansion is actually a frontal drive displacing mechanism.
