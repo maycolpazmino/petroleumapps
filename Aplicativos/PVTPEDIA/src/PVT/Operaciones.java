@@ -31,7 +31,7 @@ public class Operaciones {
             Float.parseFloat(b);
             Float.parseFloat(c);
             return true;
-        } catch (Exception e) {
+        } catch (NumberFormatException e) {
             return false;
         }
     }

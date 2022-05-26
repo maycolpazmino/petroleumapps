@@ -28,13 +28,11 @@ import java.awt.Font;
 import static java.awt.Frame.MAXIMIZED_BOTH;
 import java.awt.Image;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -275,6 +273,36 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel35 = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jPanel22 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
+        jPanel23 = new javax.swing.JPanel();
+        jPanel36 = new javax.swing.JPanel();
+        jPanel32 = new javax.swing.JPanel();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel38 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jTextField6 = new javax.swing.JTextField();
+        jScrollPane21 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        jPanel34 = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jLabel42 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
+        jPanel35 = new javax.swing.JPanel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jScrollPane22 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jScrollPane23 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
         jPanel6 = new javax.swing.JPanel();
         jLabelLogo = new javax.swing.JLabel();
 
@@ -412,7 +440,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                                     .addComponent(jButtomFluidTypeEvaluate)))
                             .addComponent(selectColorTipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 646, Short.MAX_VALUE)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 295, Short.MAX_VALUE)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -1147,7 +1175,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(412, Short.MAX_VALUE))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1158,6 +1186,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("Reservoir Mechanics", jPanel2);
+
+        jPanel18.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel19.setBackground(java.awt.Color.white);
         jPanel19.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Volumetric Factors"));
@@ -1703,7 +1733,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(370, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jPanel18Layout.setVerticalGroup(
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1718,18 +1748,296 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Volumetric Calculations", jPanel18);
 
+        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel17.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel23.setBackground(new java.awt.Color(255, 102, 102));
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 344, Short.MAX_VALUE)
+        );
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        jPanel36.setBackground(new java.awt.Color(102, 255, 102));
+
+        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
+        jPanel36.setLayout(jPanel36Layout);
+        jPanel36Layout.setHorizontalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 369, Short.MAX_VALUE)
+        );
+        jPanel36Layout.setVerticalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 580, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jPanel32.setBackground(new java.awt.Color(255, 204, 204));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4", "Title 5", "Title 6", "Title 7", "Title 8", "Title 9", "Title 10", "Title 11", "Title 12"
+            }
+        ));
+        jScrollPane19.setViewportView(jTable1);
+
+        jLabel23.setText("jLabel23");
+
+        jTextField2.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField2.setText("jTextField2");
+
+        jTextField3.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField3.setText("jTextField2");
+
+        jLabel38.setText("jLabel23");
+
+        jTextField5.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField5.setText("jTextField2");
+
+        jLabel39.setText("jLabel23");
+
+        jLabel40.setText("jLabel23");
+
+        jTextField6.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField6.setText("jTextField2");
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addComponent(jLabel23)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addComponent(jLabel38)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField3))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addComponent(jLabel39)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField5))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addComponent(jLabel40)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField6)))
+                .addContainerGap())
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel23)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel38)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel39)
+                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel40)
+                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(9, Short.MAX_VALUE))
+        );
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Presion", "Grafic Z", "Density", "Volumetric Factor"
+            }
+        ));
+        jScrollPane21.setViewportView(jTable2);
+
+        jLabel41.setText("jLabel23");
+
+        jTextField7.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField7.setText("jTextField2");
+
+        jLabel42.setText("jLabel23");
+
+        jTextField8.setBackground(new java.awt.Color(204, 255, 204));
+        jTextField8.setText("jTextField2");
+
+        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
+        jPanel34.setLayout(jPanel34Layout);
+        jPanel34Layout.setHorizontalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel34Layout.createSequentialGroup()
+                        .addComponent(jLabel41)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField7, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
+                        .addGap(8, 8, 8))
+                    .addGroup(jPanel34Layout.createSequentialGroup()
+                        .addComponent(jLabel42)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField8, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE)
+                        .addContainerGap())))
+        );
+        jPanel34Layout.setVerticalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel41)
+                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel42)
+                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
+        jPanel35.setLayout(jPanel35Layout);
+        jPanel35Layout.setHorizontalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jPanel35Layout.setVerticalGroup(
+            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        jTextArea9.setColumns(20);
+        jTextArea9.setRows(5);
+        jScrollPane22.setViewportView(jTextArea9);
+
+        jButton18.setText("jButton18");
+
+        jButton19.setText("jButton19");
+
+        jTextArea11.setColumns(20);
+        jTextArea11.setRows(5);
+        jScrollPane23.setViewportView(jTextArea11);
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jSeparator1, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE)
+                    .addGroup(jPanel32Layout.createSequentialGroup()
+                        .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel32Layout.createSequentialGroup()
+                        .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel32Layout.createSequentialGroup()
+                        .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane23))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton19)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton18)))
+                .addContainerGap())
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel32Layout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton18)
+                    .addComponent(jButton19))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane22, javax.swing.GroupLayout.DEFAULT_SIZE, 102, Short.MAX_VALUE)
+                    .addComponent(jScrollPane23))
+                .addContainerGap())
+        );
+
         javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
         jPanel22.setLayout(jPanel22Layout);
         jPanel22Layout.setHorizontalGroup(
             jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1663, Short.MAX_VALUE)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel22Layout.setVerticalGroup(
             jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 613, Short.MAX_VALUE)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Correlations", jPanel22);
+        jTabbedPane1.addTab("GOES", jPanel22);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -1759,7 +2067,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTabbedPane1)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1314, Short.MAX_VALUE)
                     .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -1829,16 +2137,24 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private void relativePermeabilityCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_relativePermeabilityCBActionPerformed
         String clasificacion = (String) relativePermeabilityCB.getSelectedItem();
 
-        if (clasificacion.equals("Select")) {
-            this.pintarImagen(this.jLabel12, "/Images/formulas/Capillarity/empty.jpg");
-        } else if (clasificacion.equals("Relative Permeability to Oil")) {
-            this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityOil.jpg");
-        } else if (clasificacion.equals("Relative Permeability to Gas")) {
-            this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityGas.jpg");
-        } else if (clasificacion.equals("Relative Permeability to Water")) {
-            this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityWater.jpg");
-        } else if (clasificacion.equals("Formula Explication")) {
-            this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/ExpliPermeRela.jpg");
+        switch (clasificacion) {
+            case "Select":
+                this.pintarImagen(this.jLabel12, "/Images/formulas/Capillarity/empty.jpg");
+                break;
+            case "Relative Permeability to Oil":
+                this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityOil.jpg");
+                break;
+            case "Relative Permeability to Gas":
+                this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityGas.jpg");
+                break;
+            case "Relative Permeability to Water":
+                this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/relativePermeabilityWater.jpg");
+                break;
+            case "Formula Explication":
+                this.pintarImagen(this.jLabel12, "/Images/Permeabilidad/ExpliPermeRela.jpg");
+                break;
+            default:
+                break;
         }
     }//GEN-LAST:event_relativePermeabilityCBActionPerformed
 
@@ -1870,14 +2186,21 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private void fluidSaturationCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fluidSaturationCBActionPerformed
         String clasificacion = (String) fluidSaturationCB.getSelectedItem();
 
-        if (clasificacion.equals("Select")) {
-            this.pintarImagen(this.jLabel9, "/Images/formulas/Capillarity/empty.jpg");
-        } else if (clasificacion.equals("Oil Saturation")) {
-            this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationOil.jpg");
-        } else if (clasificacion.equals("Gas Saturation")) {
-            this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationGas.jpg");
-        } else if (clasificacion.equals("Water Saturation")) {
-            this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationWater.jpg");
+        switch (clasificacion) {
+            case "Select":
+                this.pintarImagen(this.jLabel9, "/Images/formulas/Capillarity/empty.jpg");
+                break;
+            case "Oil Saturation":
+                this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationOil.jpg");
+                break;
+            case "Gas Saturation":
+                this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationGas.jpg");
+                break;
+            case "Water Saturation":
+                this.pintarImagen(this.jLabel9, "/Images/FluidSaturation_DarcyLaw/fluidSaturationWater.jpg");
+                break;
+            default:
+                break;
         }
     }//GEN-LAST:event_fluidSaturationCBActionPerformed
 
@@ -1904,56 +2227,101 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private void selectPorVisCapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectPorVisCapActionPerformed
         String clasificacion = (String) selectPorVisCap.getSelectedItem();
 
-        if (clasificacion.equals("Select")) {
-            this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/Capillarity/empty.jpg");
-            InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/GOR/Empty.txt");
-            textoPorVisCapGOR(is);
-        } else if (clasificacion.equals("Porosity")) {
-            this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/Porosity1.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Porosity.txt");
-            textoPorVisCapGOR(is);
-        } else if (clasificacion.equals("Viscosity")) {
-            this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/Viscosity.png");
-            InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Viscosity/Viscosity.txt");
-            textoPorVisCapGOR(is);
-        } else if (clasificacion.equals("Capillarity")) {
-            this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/Capillarity/CapillaryPressureContactAngle.png");
-            InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Capillary/Capillary1.txt");
-            textoPorVisCapGOR(is);
-        } else if (clasificacion.equals("Gas and Oil Ratio")) {
-            this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/GOR/solutiongasdrive.jpg");
-            InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/GOR/GOR01.txt");
-            textoPorVisCapGOR(is);
+        switch (clasificacion) {
+            case "Select":
+                {
+                    this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/Capillarity/empty.jpg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/GOR/Empty.txt");
+                    textoPorVisCapGOR(is);
+                    break;
+                }
+            case "Porosity":
+                {
+                    this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/Porosity1.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Porosity.txt");
+                    textoPorVisCapGOR(is);
+                    break;
+                }
+            case "Viscosity":
+                {
+                    this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/Viscosity.png");
+                    InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Viscosity/Viscosity.txt");
+                    textoPorVisCapGOR(is);
+                    break;
+                }
+            case "Capillarity":
+                {
+                    this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/Capillarity/CapillaryPressureContactAngle.png");
+                    InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/Capillary/Capillary1.txt");
+                    textoPorVisCapGOR(is);
+                    break;
+                }
+            case "Gas and Oil Ratio":
+                {
+                    this.pintarImagen(this.fotoPoroVisCapiGOR, "/Images/formulas/GOR/solutiongasdrive.jpg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/PorVisCapiGOR/GOR/GOR01.txt");
+                    textoPorVisCapGOR(is);
+                    break;
+                }
+            default:
+                break;
         }
     }//GEN-LAST:event_selectPorVisCapActionPerformed
 
     private void selectRecoveryMechanismActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectRecoveryMechanismActionPerformed
         String clasificacion = (String) selectRecoveryMechanism.getSelectedItem();
 
-        if (clasificacion.equals("Select")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Primary_Recovery.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Rock and Fluid Expansion")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Rock_And_Liquid_Expansion_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Solution Gas Drive")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Depletion_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Gas Cap Drive")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Gas_Cap_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Gravity Drainage")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Gravity_Drainage_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Aquifer Drive (Weak Aquifer)")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Water_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Aquifer Drive (Strong Aquifer)")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Water_Drive.txt");
-            textoRecoveryMechanisms(is);
-        } else if (clasificacion.equals("Combined Drive Mechanisms")) {
-            InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Combination_Drive_Mechanism.txt");
-            textoRecoveryMechanisms(is);
+        switch (clasificacion) {
+            case "Select":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Primary_Recovery.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Rock and Fluid Expansion":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Rock_And_Liquid_Expansion_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Solution Gas Drive":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Depletion_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Gas Cap Drive":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Gas_Cap_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Gravity Drainage":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Gravity_Drainage_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Aquifer Drive (Weak Aquifer)":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Water_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Aquifer Drive (Strong Aquifer)":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Water_Drive.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            case "Combined Drive Mechanisms":
+                {
+                    InputStream is = getClass().getResourceAsStream("/Textos/RecoveryMechanism/Combination_Drive_Mechanism.txt");
+                    textoRecoveryMechanisms(is);
+                    break;
+                }
+            default:
+                break;
         }
     }//GEN-LAST:event_selectRecoveryMechanismActionPerformed
 
@@ -1981,40 +2349,58 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private void selectCurvaFasesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectCurvaFasesActionPerformed
         String clasificacion = (String) selectCurvaFases.getSelectedItem();
 
-        if (clasificacion.equals("Select")) {
-            this.pintarImagen(this.curvaFases, "/Images/ClasificationFluids.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/TypeClassification.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Black Oil")) {
-            this.pintarImagen(this.curvaFases, "/Images/BlackOil.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/BlackOil.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Volatile Oil")) {
-            this.pintarImagen(this.curvaFases, "/Images/VolatileOil.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/VolatileOil.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Condensade Gas")) {
-            this.pintarImagen(this.curvaFases, "/Images/CondensadeGas.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/RetrogradeGas.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Wet Gas")) {
-            this.pintarImagen(this.curvaFases, "/Images/WetGas.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/WetGas.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Dry Gas")) {
-            this.pintarImagen(this.curvaFases, "/Images/DryGas.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/DryGas.txt");
-            textoClasificacion(is);
-
-        } else if (clasificacion.equals("Alfastenic")) {
-            this.pintarImagen(this.curvaFases, "/Images/Asfaltenic.jpeg");
-            InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/Asfaltenic.txt");
-            textoClasificacion(is);
+        switch (clasificacion) {
+            case "Select":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/ClasificationFluids.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/TypeClassification.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Black Oil":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/BlackOil.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/BlackOil.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Volatile Oil":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/VolatileOil.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/VolatileOil.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Condensade Gas":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/CondensadeGas.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/RetrogradeGas.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Wet Gas":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/WetGas.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/WetGas.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Dry Gas":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/DryGas.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/DryGas.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            case "Alfastenic":
+                {
+                    this.pintarImagen(this.curvaFases, "/Images/Asfaltenic.jpeg");
+                    InputStream is = getClass().getResourceAsStream("/Textos/FluidClassification/Asfaltenic.txt");
+                    textoClasificacion(is);
+                    break;
+                }
+            default:
+                break;
         }
     }//GEN-LAST:event_selectCurvaFasesActionPerformed
 
@@ -2033,42 +2419,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         }
     }
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Clasificacion_Fluidos().setVisible(true);
-            }
-        });
-    }
-
     public void textoClasificacion(InputStream is) {
         jTextAreaClasificacion.setText("");
         try {
@@ -2079,7 +2429,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 jTextAreaClasificacion.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2093,7 +2443,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 jTextAreaRecovey.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2107,7 +2457,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 JTextPorVisCapiGOR.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2121,7 +2471,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 textSaturation.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2135,12 +2485,12 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 textDarcy.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    public void textoPermeRela(InputStream is) {
+    public final void textoPermeRela(InputStream is) {
         textRelative.setText("");
         try {
             BufferedReader read = new BufferedReader(new InputStreamReader(is));
@@ -2149,7 +2499,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 textRelative.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2163,7 +2513,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 textAbsolute.append(linea + "\n");
                 linea = read.readLine();
             }
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             Logger.getLogger(Clasificacion_Fluidos.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -2197,6 +2547,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -2220,6 +2572,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
@@ -2235,7 +2588,12 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -2250,12 +2608,14 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
     private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel25;
     private javax.swing.JPanel jPanel26;
@@ -2265,6 +2625,11 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -2281,8 +2646,12 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JScrollPane jScrollPane23;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -2290,9 +2659,13 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTable2;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
@@ -2300,11 +2673,18 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea6;
     private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JTextArea jTextAreaClasificacion;
     private javax.swing.JTextArea jTextAreaRecovey;
     private javax.swing.JTextArea jTextAreaTypeFluid;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
     private javax.swing.JTable mechanismRecoveryTable;
     private javax.swing.JComboBox<String> relativePermeabilityCB;
     private javax.swing.JComboBox<String> selectColorTipo;
