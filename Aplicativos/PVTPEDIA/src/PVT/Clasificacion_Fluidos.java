@@ -23,6 +23,7 @@ import formulas.SolutionOilGas1;
 import formulas.SolutionOilGas2;
 import formulas.Standing;
 import formulas.Viscosity;
+import formulas.gasReservoir;
 import java.awt.Color;
 import java.awt.Font;
 import static java.awt.Frame.MAXIMIZED_BOTH;
@@ -1065,7 +1066,52 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jTextField10 = new javax.swing.JTextField();
         jLabel81 = new javax.swing.JLabel();
         jPanel44 = new javax.swing.JPanel();
+        jButton23 = new javax.swing.JButton();
+        jLabel83 = new javax.swing.JLabel();
+        jTextField11 = new javax.swing.JTextField();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jButton24 = new javax.swing.JButton();
+        jLabel86 = new javax.swing.JLabel();
+        checkbox1 = new java.awt.Checkbox();
+        checkbox2 = new java.awt.Checkbox();
+        jLabel87 = new javax.swing.JLabel();
+        inputTextArea1 = new javax.swing.JTextField();
+        jLabel88 = new javax.swing.JLabel();
         jPanel54 = new javax.swing.JPanel();
+        label5 = new java.awt.Label();
+        jScrollPane26 = new javax.swing.JScrollPane();
+        jTextArea12 = new javax.swing.JTextArea();
+        jPanel45 = new javax.swing.JPanel();
+        jLabel91 = new javax.swing.JLabel();
+        jTextField12 = new javax.swing.JTextField();
+        jLabel92 = new javax.swing.JLabel();
+        jTextField13 = new javax.swing.JTextField();
+        jLabel93 = new javax.swing.JLabel();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField16 = new javax.swing.JTextField();
+        jLabel96 = new javax.swing.JLabel();
+        jTextField17 = new javax.swing.JTextField();
+        jLabel94 = new javax.swing.JLabel();
+        jTextField15 = new javax.swing.JTextField();
+        jLabel95 = new javax.swing.JLabel();
+        jButton25 = new javax.swing.JButton();
+        label6 = new java.awt.Label();
+        jScrollPane27 = new javax.swing.JScrollPane();
+        jTextArea13 = new javax.swing.JTextArea();
+        jPanel46 = new javax.swing.JPanel();
+        jLabel98 = new javax.swing.JLabel();
+        jTextField19 = new javax.swing.JTextField();
+        jLabel99 = new javax.swing.JLabel();
+        jTextField20 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
+        jLabel101 = new javax.swing.JLabel();
+        jTextField23 = new javax.swing.JTextField();
+        jLabel102 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jLabel103 = new javax.swing.JLabel();
+        jTextField22 = new javax.swing.JTextField();
+        label7 = new java.awt.Label();
         jPanel6 = new javax.swing.JPanel();
         jLabelLogo = new javax.swing.JLabel();
 
@@ -1079,7 +1125,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(640, 372));
 
-        selectCurvaFases.setBackground(new java.awt.Color(255, 255, 255));
         selectCurvaFases.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 selectCurvaFasesActionPerformed(evt);
@@ -1611,7 +1656,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel21.setFont(new java.awt.Font("Dialog", 1, 8)); // NOI18N
         jLabel21.setText("Typical Solution Gas-Oil Ratio Shape");
 
-        jButton8.setBackground(new java.awt.Color(255, 255, 255));
         jButton8.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jButton8.setText("Show");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -1620,7 +1664,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton7.setBackground(new java.awt.Color(255, 255, 255));
         jButton7.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jButton7.setText("Show");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -1708,7 +1751,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jTextArea8.setWrapStyleWord(true);
         jScrollPane18.setViewportView(jTextArea8);
 
-        jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Ranges");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1716,7 +1758,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setBackground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Distribution");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1956,7 +1997,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jTextArea2.setWrapStyleWord(true);
         jScrollPane12.setViewportView(jTextArea2);
 
-        jButton13.setBackground(java.awt.Color.white);
         jButton13.setText("Formula");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1964,7 +2004,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton14.setBackground(java.awt.Color.white);
         jButton14.setText("Example");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2012,7 +2051,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jTextArea3.setWrapStyleWord(true);
         jScrollPane13.setViewportView(jTextArea3);
 
-        jButton15.setBackground(java.awt.Color.white);
         jButton15.setText("Formula");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2020,7 +2058,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton16.setBackground(java.awt.Color.white);
         jButton16.setText("Example");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2070,7 +2107,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         RBFactorZ.setBackground(java.awt.Color.white);
         RBFactorZ.setText("Z Factor");
 
-        jButton10.setBackground(java.awt.Color.white);
         jButton10.setText("Show");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2127,7 +2163,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jTextArea1.setWrapStyleWord(true);
         jScrollPane11.setViewportView(jTextArea1);
 
-        jButton11.setBackground(java.awt.Color.white);
         jButton11.setText("Formula");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2135,7 +2170,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton12.setBackground(java.awt.Color.white);
         jButton12.setText("Example");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2343,7 +2377,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel33.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jLabel33.setText("Step 3: Determine the z-factor from Sanding and Katz compressibility factor chart.  = 0.78");
 
-        jButton17.setBackground(java.awt.Color.white);
         jButton17.setText("Show Graphic");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2524,7 +2557,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jScrollPane24.setBackground(new java.awt.Color(255, 255, 255));
 
-        tblGases.setBackground(new java.awt.Color(255, 255, 255));
         tblGases.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2540,7 +2572,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jScrollPane19.setBackground(new java.awt.Color(255, 255, 255));
 
-        tblDensityValue.setBackground(new java.awt.Color(255, 255, 255));
         tblDensityValue.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2556,7 +2587,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel40.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel40.setText("Calculations with defined pressure (psi) and temperature (°R)");
 
-        jButton18.setBackground(new java.awt.Color(255, 255, 255));
         jButton18.setText("jButton18");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2575,12 +2605,13 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel39.setBackground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Temperature °R");
 
-        farenTemperature.setBackground(new java.awt.Color(255, 255, 255));
-
         rankTemperature.setEditable(false);
         rankTemperature.setBackground(new java.awt.Color(255, 255, 255));
-
-        pressure.setBackground(new java.awt.Color(255, 255, 255));
+        rankTemperature.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rankTemperatureActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -2594,7 +2625,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                     .addComponent(jLabel39))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(farenTemperature, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE)
+                    .addComponent(farenTemperature, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(pressure, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(rankTemperature))
                 .addContainerGap())
@@ -2618,9 +2649,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         );
 
         jLabel46.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel46.setText("Grafic Z");
-
-        graficZ.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel46.setText("Graphic Z");
+        jLabel46.setToolTipText("");
 
         javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
         jPanel33.setLayout(jPanel33Layout);
@@ -2631,7 +2661,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jScrollPane19, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel40, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                    .addComponent(jLabel40, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel33Layout.createSequentialGroup()
                         .addComponent(jLabel46)
                         .addGap(18, 18, 18)
@@ -2762,7 +2792,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jScrollPane23.setBackground(new java.awt.Color(255, 255, 255));
 
-        jTable5.setBackground(new java.awt.Color(255, 255, 255));
         jTable5.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"0", null},
@@ -2796,26 +2825,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel43.setBackground(new java.awt.Color(255, 255, 255));
         jLabel43.setText("CO2");
 
-        co2.setBackground(new java.awt.Color(255, 255, 255));
-
-        h2s.setBackground(new java.awt.Color(255, 255, 255));
-
-        ch4.setBackground(new java.awt.Color(255, 255, 255));
-
-        c2h6.setBackground(new java.awt.Color(255, 255, 255));
-
-        c3h8.setBackground(new java.awt.Color(255, 255, 255));
-
-        ic4h10.setBackground(new java.awt.Color(255, 255, 255));
-
-        nc4h10.setBackground(new java.awt.Color(255, 255, 255));
-
-        ic5h12.setBackground(new java.awt.Color(255, 255, 255));
-
-        nc5h12.setBackground(new java.awt.Color(255, 255, 255));
-
-        c6h14.setBackground(new java.awt.Color(255, 255, 255));
-
         jLabel52.setBackground(new java.awt.Color(255, 255, 255));
         jLabel52.setText("H2S");
 
@@ -2845,8 +2854,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jLabel44.setBackground(new java.awt.Color(255, 255, 255));
         jLabel44.setText("Fill In The Fields To Calculate");
-
-        n2.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel45.setBackground(new java.awt.Color(255, 255, 255));
         jLabel45.setText("N2");
@@ -2941,9 +2948,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jLabel41.setBackground(new java.awt.Color(255, 255, 255));
         jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel41.setText("Calorific Value");
+        jLabel41.setText("Heating Power");
 
-        jButton20.setBackground(new java.awt.Color(255, 255, 255));
         jButton20.setText("jButton20");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3023,38 +3029,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel61.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel61.setText("Density");
 
-        pres1.setBackground(new java.awt.Color(255, 255, 255));
-
-        pres2.setBackground(new java.awt.Color(255, 255, 255));
-
-        pres4.setBackground(new java.awt.Color(255, 255, 255));
-
-        pres3.setBackground(new java.awt.Color(255, 255, 255));
-
-        z1.setBackground(new java.awt.Color(255, 255, 255));
-
-        z3.setBackground(new java.awt.Color(255, 255, 255));
-
-        z2.setBackground(new java.awt.Color(255, 255, 255));
-
-        z4.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol1.setBackground(new java.awt.Color(255, 255, 255));
-
-        den2.setBackground(new java.awt.Color(255, 255, 255));
-
-        den3.setBackground(new java.awt.Color(255, 255, 255));
-
-        den4.setBackground(new java.awt.Color(255, 255, 255));
-
-        den1.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol2.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol4.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol3.setBackground(new java.awt.Color(255, 255, 255));
-
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
         jPanel17Layout.setHorizontalGroup(
@@ -3063,14 +3037,14 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(pres4, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                            .addComponent(pres4)
                             .addComponent(pres3, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(pres2, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(pres1, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
-                                .addComponent(z4, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE))
+                                .addComponent(z4))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3082,13 +3056,13 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel49, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)))
+                        .addComponent(jLabel49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(den3, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(den2, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(den1, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                    .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(den4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -3134,14 +3108,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        pres5.setBackground(new java.awt.Color(255, 255, 255));
-
-        pres6.setBackground(new java.awt.Color(255, 255, 255));
-
-        z5.setBackground(new java.awt.Color(255, 255, 255));
-
-        z6.setBackground(new java.awt.Color(255, 255, 255));
-
         jLabel50.setBackground(new java.awt.Color(255, 255, 255));
         jLabel50.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel50.setText("Pressure");
@@ -3158,14 +3124,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel64.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel64.setText("Vol. Factor");
 
-        den6.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol5.setBackground(new java.awt.Color(255, 255, 255));
-
-        vol6.setBackground(new java.awt.Color(255, 255, 255));
-
-        den5.setBackground(new java.awt.Color(255, 255, 255));
-
         javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
         jPanel47.setLayout(jPanel47Layout);
         jPanel47Layout.setHorizontalGroup(
@@ -3174,17 +3132,17 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(pres5, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                        .addComponent(pres5)
                         .addComponent(pres6))
                     .addComponent(jLabel50, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(z5)
                     .addComponent(z6)
-                    .addComponent(jLabel62, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE))
+                    .addComponent(jLabel62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel63, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                    .addComponent(jLabel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(den6)
                     .addComponent(den5))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -3218,7 +3176,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGap(0, 10, Short.MAX_VALUE))
         );
 
-        jButton19.setBackground(new java.awt.Color(255, 255, 255));
         jButton19.setText("jButton19");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3226,7 +3183,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
-        jButton21.setBackground(new java.awt.Color(255, 255, 255));
         jButton21.setText("jButton21");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3376,16 +3332,16 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                         .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel51, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel65))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(0, 95, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel38Layout.createSequentialGroup()
-                .addGap(0, 197, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton22)
-                .addContainerGap(198, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel38Layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 472, Short.MAX_VALUE)
+                    .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 467, Short.MAX_VALUE)
                     .addContainerGap()))
         );
         jPanel38Layout.setVerticalGroup(
@@ -3403,7 +3359,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addComponent(jLabel65, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jLabel51)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(57, Short.MAX_VALUE))
             .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel38Layout.createSequentialGroup()
                     .addGap(73, 73, 73)
@@ -3418,6 +3374,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         label4.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         label4.setText("GIP Calculator");
 
+        jLabel66.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel66.setText("A gas reservoir has the following characteristics:");
 
         jLabel67.setText("(this information must be entered in orderto perform the calculation)");
@@ -3558,6 +3515,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jLabel77.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel77.setText("Calculate the Gas in Place using the volumetric method");
 
         jTabbedPane2.setTabPlacement(javax.swing.JTabbedPane.LEFT);
@@ -3595,7 +3553,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                         .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel81)))
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
         jPanel43Layout.setVerticalGroup(
             jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3609,23 +3567,83 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                     .addComponent(jLabel80)
                     .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel81))
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("1. Pore Volume", jPanel43);
+        jTabbedPane2.addTab("a. Pore Volume", jPanel43);
+
+        jButton23.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton23.setText("How to get the Bg");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+
+        jLabel83.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel83.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel83.setText("Bg =");
+
+        jTextField11.setToolTipText("");
+
+        jLabel84.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel84.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel84.setText("ft3/scf");
 
         javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
         jPanel44.setLayout(jPanel44Layout);
         jPanel44Layout.setHorizontalGroup(
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 232, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel44Layout.createSequentialGroup()
+                .addContainerGap(29, Short.MAX_VALUE)
+                .addComponent(jLabel83)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel84)
+                .addGap(22, 22, 22))
+            .addGroup(jPanel44Layout.createSequentialGroup()
+                .addGap(45, 45, 45)
+                .addComponent(jButton23)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel44Layout.setVerticalGroup(
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 169, Short.MAX_VALUE)
+            .addGroup(jPanel44Layout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addComponent(jButton23)
+                .addGap(43, 43, 43)
+                .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel83)
+                    .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel84))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("2. Gas formation volume factor", jPanel44);
+        jTabbedPane2.addTab("b. Gas formation volume factor", jPanel44);
+
+        jLabel85.setText("1. Calculate the Pore Volume (PV) and the Gas formation volume factor (Bg)");
+
+        jButton24.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
+        jButton24.setText("¡Proceed!");
+
+        jLabel86.setText("2. Calculate the Gas in Place at defined Temperature and Pressure");
+
+        checkbox1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        checkbox1.setLabel("P.V.");
+
+        checkbox2.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        checkbox2.setLabel("Bg.");
+
+        jLabel87.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jLabel87.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel87.setText("GIP = ");
+
+        inputTextArea1.setToolTipText("");
+
+        jLabel88.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jLabel88.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel88.setText("MMMscf");
 
         javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
         jPanel51.setLayout(jPanel51Layout);
@@ -3634,15 +3652,42 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGroup(jPanel51Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(label4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel51Layout.createSequentialGroup()
-                        .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 444, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel67, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel51Layout.createSequentialGroup()
+                        .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(label4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel66, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel51Layout.createSequentialGroup()
+                                .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 444, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel51Layout.createSequentialGroup()
+                                        .addGap(6, 6, 6)
+                                        .addComponent(jLabel85)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jButton24)))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addContainerGap())))
+            .addGroup(jPanel51Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel51Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(checkbox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel87)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(inputTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel88))
+                    .addComponent(jLabel86))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel51Layout.setVerticalGroup(
             jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3657,23 +3702,267 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel77)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel85)
+                    .addComponent(jButton24))
                 .addGap(18, 18, 18)
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel86)
+                .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel51Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(checkbox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel51Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel87)
+                            .addComponent(inputTextArea1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel88))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel54.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel54.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Recovery Factor"));
+        jPanel54.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "GIP uses"));
+
+        label5.setAlignment(java.awt.Label.CENTER);
+        label5.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        label5.setText("Remaining gas");
+
+        jTextArea12.setColumns(20);
+        jTextArea12.setLineWrap(true);
+        jTextArea12.setRows(3);
+        jTextArea12.setText("Since the reservoir is assumed volumetric, you can calculate the cumulativegas production gas in the reservoir, calculating the GIP at the initial pressure and substracting the GIP the depletion pressure ");
+        jScrollPane26.setViewportView(jTextArea12);
+
+        jLabel91.setText("p3(psi) =");
+
+        jLabel92.setText("p2(psi) =");
+
+        jLabel93.setText("p1(psi) =");
+
+        jLabel96.setText("GIP =");
+
+        jLabel94.setText("GIP =");
+
+        jLabel95.setText("GIP =");
+
+        jButton25.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton25.setText("Graphic");
+
+        javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
+        jPanel45.setLayout(jPanel45Layout);
+        jPanel45Layout.setHorizontalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel45Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addComponent(jLabel91)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addComponent(jLabel92)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addComponent(jLabel93)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(44, 44, 44)
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel45Layout.createSequentialGroup()
+                                .addComponent(jLabel96)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel45Layout.createSequentialGroup()
+                                .addComponent(jLabel94)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addComponent(jLabel95)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton25)
+                        .addGap(21, 21, 21))))
+        );
+        jPanel45Layout.setVerticalGroup(
+            jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel45Layout.createSequentialGroup()
+                .addGap(9, 9, 9)
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel94)
+                            .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel95)
+                            .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton25))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel96)
+                            .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel93)
+                            .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel92)
+                            .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel91)
+                            .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        label6.setAlignment(java.awt.Label.CENTER);
+        label6.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        label6.setText("Cumulative gas production");
+
+        jTextArea13.setColumns(20);
+        jTextArea13.setLineWrap(true);
+        jTextArea13.setRows(3);
+        jTextArea13.setText("Since the reservoir is assumed volumetric, you can calculate the remaining gas in the reservoir, calculating the GIP at the depletion pressure");
+        jScrollPane27.setViewportView(jTextArea13);
+
+        jLabel98.setText("p2(psi) =");
+
+        jLabel99.setText("p1(psi) =");
+
+        jLabel101.setText("GIP =");
+
+        jLabel102.setText("GIP =");
+
+        jButton26.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton26.setText("Calculate Gp");
+
+        jLabel103.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel103.setText("Gp =");
+
+        javax.swing.GroupLayout jPanel46Layout = new javax.swing.GroupLayout(jPanel46);
+        jPanel46.setLayout(jPanel46Layout);
+        jPanel46Layout.setHorizontalGroup(
+            jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel46Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel46Layout.createSequentialGroup()
+                                .addComponent(jLabel98)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel46Layout.createSequentialGroup()
+                                .addComponent(jLabel99)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(44, 44, 44)
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel46Layout.createSequentialGroup()
+                                .addComponent(jLabel101)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel46Layout.createSequentialGroup()
+                                .addComponent(jLabel102)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton26))
+                    .addGroup(jPanel46Layout.createSequentialGroup()
+                        .addGap(119, 119, 119)
+                        .addComponent(jLabel103)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel46Layout.setVerticalGroup(
+            jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addGap(9, 9, 9)
+                .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel46Layout.createSequentialGroup()
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel101)
+                            .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel102)
+                            .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel46Layout.createSequentialGroup()
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel99)
+                            .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel98)
+                            .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel103)
+                    .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel46Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(jButton26)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        label7.setAlignment(java.awt.Label.CENTER);
+        label7.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        label7.setText("Recovery Factor");
 
         javax.swing.GroupLayout jPanel54Layout = new javax.swing.GroupLayout(jPanel54);
         jPanel54.setLayout(jPanel54Layout);
         jPanel54Layout.setHorizontalGroup(
             jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 364, Short.MAX_VALUE)
+            .addGroup(jPanel54Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(label5, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE)
+                    .addComponent(jPanel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(label6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE)
+                    .addComponent(jScrollPane26)
+                    .addComponent(jPanel46, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(label7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE))
+                .addContainerGap())
+            .addGroup(jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel54Layout.createSequentialGroup()
+                    .addGap(10, 10, 10)
+                    .addComponent(jScrollPane27)
+                    .addGap(10, 10, 10)))
         );
         jPanel54Layout.setVerticalGroup(
             jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel54Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(label5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70)
+                .addComponent(jPanel45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jPanel46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(label7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel54Layout.createSequentialGroup()
+                    .addGap(66, 66, 66)
+                    .addComponent(jScrollPane27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(509, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
@@ -3681,13 +3970,13 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jPanel34Layout.setHorizontalGroup(
             jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel34Layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(jPanel38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(140, 140, 140))
+                .addContainerGap(152, Short.MAX_VALUE))
         );
         jPanel34Layout.setVerticalGroup(
             jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3715,7 +4004,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabelLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(1174, Short.MAX_VALUE))
+                .addContainerGap(1234, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3742,7 +4031,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 639, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 689, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -4070,14 +4359,24 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     }//GEN-LAST:event_selectCurvaFasesActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        Standing st = new Standing(this, false);
-        st.setVisible(true);
+        gasReservoir reservoir = new gasReservoir(this, false);
+        reservoir.setVisible(true);
+                     
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jLabel76MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel76MouseClicked
         Standing st = new Standing(this, false);
         st.setVisible(true);
     }//GEN-LAST:event_jLabel76MouseClicked
+
+    private void rankTemperatureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rankTemperatureActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rankTemperatureActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        BgFormula bg = new BgFormula(this, false);
+        bg.setVisible(true);
+    }//GEN-LAST:event_jButton23ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField APIGravity;
@@ -4093,6 +4392,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextField c3h8;
     private javax.swing.JTextField c6h14;
     private javax.swing.JTextField ch4;
+    private java.awt.Checkbox checkbox1;
+    private java.awt.Checkbox checkbox2;
     private javax.swing.JTextField co2;
     private javax.swing.JLabel curvaFases;
     private javax.swing.JTextField den1;
@@ -4110,6 +4411,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextField ic4h10;
     private javax.swing.JTextField ic5h12;
     private javax.swing.JTextField inputTextArea;
+    private javax.swing.JTextField inputTextArea1;
     private javax.swing.JTextField inputtextSaturationWater;
     private javax.swing.JButton jButtomFluidTypeEvaluate;
     private javax.swing.JButton jButton1;
@@ -4127,6 +4429,10 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -4136,6 +4442,9 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -4215,7 +4524,21 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JLabel jLabelLogo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -4256,6 +4579,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel42;
     private javax.swing.JPanel jPanel43;
     private javax.swing.JPanel jPanel44;
+    private javax.swing.JPanel jPanel45;
+    private javax.swing.JPanel jPanel46;
     private javax.swing.JPanel jPanel47;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel51;
@@ -4282,6 +4607,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane23;
     private javax.swing.JScrollPane jScrollPane24;
     private javax.swing.JScrollPane jScrollPane25;
+    private javax.swing.JScrollPane jScrollPane26;
+    private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -4298,6 +4625,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea10;
     private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
+    private javax.swing.JTextArea jTextArea13;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
@@ -4311,6 +4640,18 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextAreaTypeFluid;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField19;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
@@ -4320,6 +4661,9 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private java.awt.Label label1;
     private java.awt.Label label3;
     private java.awt.Label label4;
+    private java.awt.Label label5;
+    private java.awt.Label label6;
+    private java.awt.Label label7;
     private javax.swing.JTable mechanismRecoveryTable;
     private javax.swing.JTextField n2;
     private javax.swing.JTextField nc4h10;
