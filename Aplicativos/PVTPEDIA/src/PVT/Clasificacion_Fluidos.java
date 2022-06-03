@@ -930,6 +930,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jPanel22 = new javax.swing.JPanel();
         jPanel32 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jScrollPane24 = new javax.swing.JScrollPane();
         tblGases = new javax.swing.JTable();
@@ -1073,9 +1074,12 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
 
+        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(640, 372));
 
+        selectCurvaFases.setBackground(new java.awt.Color(255, 255, 255));
         selectCurvaFases.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 selectCurvaFasesActionPerformed(evt);
@@ -2492,19 +2496,35 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel32.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel35.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel82.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel82.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel82.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel82.setText("Procedure For Density Calculations");
 
         javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
         jPanel35.setLayout(jPanel35Layout);
         jPanel35Layout.setHorizontalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel35Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel35Layout.setVerticalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 38, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel35Layout.createSequentialGroup()
+                .addContainerGap(16, Short.MAX_VALUE)
+                .addComponent(jLabel82)
+                .addContainerGap())
         );
 
+        jScrollPane24.setBackground(new java.awt.Color(255, 255, 255));
+
+        tblGases.setBackground(new java.awt.Color(255, 255, 255));
         tblGases.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2516,6 +2536,11 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         tblGases.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane24.setViewportView(tblGases);
 
+        jPanel33.setBackground(new java.awt.Color(255, 255, 255));
+
+        jScrollPane19.setBackground(new java.awt.Color(255, 255, 255));
+
+        tblDensityValue.setBackground(new java.awt.Color(255, 255, 255));
         tblDensityValue.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2526,10 +2551,12 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         ));
         jScrollPane19.setViewportView(tblDensityValue);
 
-        jLabel40.setBackground(new java.awt.Color(255, 102, 102));
+        jLabel40.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel40.setForeground(new java.awt.Color(255, 0, 0));
         jLabel40.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel40.setText("Calculations with defined pressure (psi) and temperature (°R)");
 
+        jButton18.setBackground(new java.awt.Color(255, 255, 255));
         jButton18.setText("jButton18");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2537,13 +2564,23 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
+        jPanel42.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel23.setBackground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Pressure (psi)");
 
+        jLabel38.setBackground(new java.awt.Color(255, 255, 255));
         jLabel38.setText("Temperature °F");
 
+        jLabel39.setBackground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Temperature °R");
 
+        farenTemperature.setBackground(new java.awt.Color(255, 255, 255));
+
         rankTemperature.setEditable(false);
+        rankTemperature.setBackground(new java.awt.Color(255, 255, 255));
+
+        pressure.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -2580,7 +2617,10 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel46.setBackground(new java.awt.Color(255, 255, 255));
         jLabel46.setText("Grafic Z");
+
+        graficZ.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
         jPanel33.setLayout(jPanel33Layout);
@@ -2615,6 +2655,10 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addComponent(jPanel42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        jPanel41.setBackground(new java.awt.Color(255, 255, 255));
+
+        jScrollPane22.setBackground(new java.awt.Color(255, 255, 255));
+
         tblCorrections.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -2625,7 +2669,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         ));
         jScrollPane22.setViewportView(tblCorrections);
 
-        jLabel42.setBackground(new java.awt.Color(255, 102, 102));
+        jLabel42.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel42.setForeground(new java.awt.Color(255, 0, 0));
         jLabel42.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel42.setText("Correction of pseudocritical properties due to the presence of CO2 and H2S");
 
@@ -2648,7 +2693,9 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel23.setBackground(new java.awt.Color(255, 102, 102));
+        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
+
+        plnVolmetricFactor.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout plnVolmetricFactorLayout = new javax.swing.GroupLayout(plnVolmetricFactor);
         plnVolmetricFactor.setLayout(plnVolmetricFactorLayout);
@@ -2661,7 +2708,9 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             .addGap(0, 254, Short.MAX_VALUE)
         );
 
-        jPanel36.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel36.setBackground(new java.awt.Color(255, 255, 255));
+
+        plnFactorZ.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout plnFactorZLayout = new javax.swing.GroupLayout(plnFactorZ);
         plnFactorZ.setLayout(plnFactorZLayout);
@@ -2673,6 +2722,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             plnFactorZLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 254, Short.MAX_VALUE)
         );
+
+        plnDensity.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout plnDensityLayout = new javax.swing.GroupLayout(plnDensity);
         plnDensity.setLayout(plnDensityLayout);
@@ -2707,6 +2758,11 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGap(21, 21, 21))
         );
 
+        jPanel37.setBackground(new java.awt.Color(255, 255, 255));
+
+        jScrollPane23.setBackground(new java.awt.Color(255, 255, 255));
+
+        jTable5.setBackground(new java.awt.Color(255, 255, 255));
         jTable5.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"0", null},
@@ -2735,28 +2791,64 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         });
         jScrollPane23.setViewportView(jTable5);
 
+        jPanel40.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel43.setBackground(new java.awt.Color(255, 255, 255));
         jLabel43.setText("CO2");
 
+        co2.setBackground(new java.awt.Color(255, 255, 255));
+
+        h2s.setBackground(new java.awt.Color(255, 255, 255));
+
+        ch4.setBackground(new java.awt.Color(255, 255, 255));
+
+        c2h6.setBackground(new java.awt.Color(255, 255, 255));
+
+        c3h8.setBackground(new java.awt.Color(255, 255, 255));
+
+        ic4h10.setBackground(new java.awt.Color(255, 255, 255));
+
+        nc4h10.setBackground(new java.awt.Color(255, 255, 255));
+
+        ic5h12.setBackground(new java.awt.Color(255, 255, 255));
+
+        nc5h12.setBackground(new java.awt.Color(255, 255, 255));
+
+        c6h14.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel52.setBackground(new java.awt.Color(255, 255, 255));
         jLabel52.setText("H2S");
 
+        jLabel53.setBackground(new java.awt.Color(255, 255, 255));
         jLabel53.setText("CH4");
 
+        jLabel54.setBackground(new java.awt.Color(255, 255, 255));
         jLabel54.setText("C2H6");
 
+        jLabel55.setBackground(new java.awt.Color(255, 255, 255));
         jLabel55.setText("C3H8");
 
+        jLabel56.setBackground(new java.awt.Color(255, 255, 255));
         jLabel56.setText("i-C4H10");
 
+        jLabel57.setBackground(new java.awt.Color(255, 255, 255));
         jLabel57.setText("n-C4H10");
 
+        jLabel58.setBackground(new java.awt.Color(255, 255, 255));
         jLabel58.setText("i-C5H12");
 
+        jLabel59.setBackground(new java.awt.Color(255, 255, 255));
         jLabel59.setText("n-C5H12");
 
+        jLabel60.setBackground(new java.awt.Color(255, 255, 255));
         jLabel60.setText("C6H14");
 
+        jLabel44.setBackground(new java.awt.Color(255, 255, 255));
         jLabel44.setText("Fill In The Fields To Calculate");
 
+        n2.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel45.setBackground(new java.awt.Color(255, 255, 255));
         jLabel45.setText("N2");
 
         javax.swing.GroupLayout jPanel40Layout = new javax.swing.GroupLayout(jPanel40);
@@ -2847,10 +2939,11 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel41.setBackground(new java.awt.Color(255, 102, 102));
+        jLabel41.setBackground(new java.awt.Color(255, 255, 255));
         jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel41.setText("Calorific Value");
 
+        jButton20.setBackground(new java.awt.Color(255, 255, 255));
         jButton20.setText("jButton20");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2912,17 +3005,55 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGap(20, 20, 20))
         );
 
+        jPanel17.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel47.setBackground(new java.awt.Color(255, 255, 255));
         jLabel47.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel47.setText("Pressure");
 
+        jLabel48.setBackground(new java.awt.Color(255, 255, 255));
         jLabel48.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel48.setText("Vol. Factor");
 
+        jLabel49.setBackground(new java.awt.Color(255, 255, 255));
         jLabel49.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel49.setText("Grafic Z");
 
+        jLabel61.setBackground(new java.awt.Color(255, 255, 255));
         jLabel61.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel61.setText("Density");
+
+        pres1.setBackground(new java.awt.Color(255, 255, 255));
+
+        pres2.setBackground(new java.awt.Color(255, 255, 255));
+
+        pres4.setBackground(new java.awt.Color(255, 255, 255));
+
+        pres3.setBackground(new java.awt.Color(255, 255, 255));
+
+        z1.setBackground(new java.awt.Color(255, 255, 255));
+
+        z3.setBackground(new java.awt.Color(255, 255, 255));
+
+        z2.setBackground(new java.awt.Color(255, 255, 255));
+
+        z4.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol1.setBackground(new java.awt.Color(255, 255, 255));
+
+        den2.setBackground(new java.awt.Color(255, 255, 255));
+
+        den3.setBackground(new java.awt.Color(255, 255, 255));
+
+        den4.setBackground(new java.awt.Color(255, 255, 255));
+
+        den1.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol2.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol4.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol3.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
@@ -3003,17 +3134,37 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        pres5.setBackground(new java.awt.Color(255, 255, 255));
+
+        pres6.setBackground(new java.awt.Color(255, 255, 255));
+
+        z5.setBackground(new java.awt.Color(255, 255, 255));
+
+        z6.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel50.setBackground(new java.awt.Color(255, 255, 255));
         jLabel50.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel50.setText("Pressure");
 
+        jLabel62.setBackground(new java.awt.Color(255, 255, 255));
         jLabel62.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel62.setText("Grafic Z");
 
+        jLabel63.setBackground(new java.awt.Color(255, 255, 255));
         jLabel63.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel63.setText("Density");
 
+        jLabel64.setBackground(new java.awt.Color(255, 255, 255));
         jLabel64.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel64.setText("Vol. Factor");
+
+        den6.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol5.setBackground(new java.awt.Color(255, 255, 255));
+
+        vol6.setBackground(new java.awt.Color(255, 255, 255));
+
+        den5.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
         jPanel47.setLayout(jPanel47Layout);
@@ -3067,6 +3218,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGap(0, 10, Short.MAX_VALUE))
         );
 
+        jButton19.setBackground(new java.awt.Color(255, 255, 255));
         jButton19.setText("jButton19");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -3074,6 +3226,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
             }
         });
 
+        jButton21.setBackground(new java.awt.Color(255, 255, 255));
         jButton21.setText("jButton21");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -4061,6 +4214,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabelLogo;
     private javax.swing.JPanel jPanel1;
