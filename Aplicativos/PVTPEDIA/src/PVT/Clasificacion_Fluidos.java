@@ -1040,13 +1040,13 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel67 = new javax.swing.JLabel();
         jPanel39 = new javax.swing.JPanel();
         jLabel68 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
+        inputTextArea = new javax.swing.JTextField();
         jTextField6 = new javax.swing.JTextField();
         jLabel71 = new javax.swing.JLabel();
         jTextField7 = new javax.swing.JTextField();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
+        inputtextSaturationWater = new javax.swing.JTextField();
         jLabel72 = new javax.swing.JLabel();
         jTextField8 = new javax.swing.JTextField();
         jLabel73 = new javax.swing.JLabel();
@@ -3250,7 +3250,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addComponent(jLabel65, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33)
                 .addComponent(jLabel51)
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel38Layout.createSequentialGroup()
                     .addGap(73, 73, 73)
@@ -3277,7 +3277,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel68.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel68.setText("A (acres) =");
 
-        jTextField2.setToolTipText("");
+        inputTextArea.setToolTipText("");
 
         jTextField6.setToolTipText("");
 
@@ -3295,7 +3295,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
         jLabel70.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel70.setText("Swi (%) =");
 
-        jTextField3.setToolTipText("");
+        inputtextSaturationWater.setToolTipText("");
 
         jLabel72.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel72.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
@@ -3345,11 +3345,11 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                     .addGroup(jPanel39Layout.createSequentialGroup()
                         .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel39Layout.createSequentialGroup()
-                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(inputTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel71))
                             .addGroup(jPanel39Layout.createSequentialGroup()
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(inputtextSaturationWater, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel72)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -3382,7 +3382,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel68)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(inputTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel71)
                     .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3390,7 +3390,7 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel70)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(inputtextSaturationWater, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel72)
                     .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3547,7 +3547,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel51.getAccessibleContext().setAccessibleName("Calculator and step-by-step example");
         jPanel51.getAccessibleContext().setAccessibleDescription("");
 
         jTabbedPane1.addTab("GIP", jPanel34);
@@ -3957,6 +3956,8 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextField h2s;
     private javax.swing.JTextField ic4h10;
     private javax.swing.JTextField ic5h12;
+    private javax.swing.JTextField inputTextArea;
+    private javax.swing.JTextField inputtextSaturationWater;
     private javax.swing.JButton jButtomFluidTypeEvaluate;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
@@ -4156,8 +4157,6 @@ public class Clasificacion_Fluidos extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextAreaTypeFluid;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
